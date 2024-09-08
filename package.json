@@ -3,11 +3,32 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@iconify/icons-ic": "^1.2.13",
+    "@mui/icons-material": "^5.16.6",
+    "@mui/joy": "^5.0.0-beta.48",
+    "@mui/material": "^5.16.7",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.3",
+    "fortawesome": "^0.0.1-security",
+    "iconify": "^1.4.0",
+    "js-cookie": "^3.0.5",
+    "katex": "^0.16.11",
+    "mathjax": "^3.2.2",
+    "mobx": "^6.13.1",
+    "mobx-react-lite": "^4.0.7",
+    "quill": "^2.0.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-number-format": "^5.4.1",
+    "react-quill": "^2.0.0",
+    "react-router": "^6.26.0",
+    "react-router-dom": "^6.26.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -16,6 +37,13 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "options": {
+    "allowedHosts": [
+      "localhost",
+      ".localhost"
+    ],
+    "proxy": "http://localhost:8080"
   },
   "eslintConfig": {
     "extends": [
